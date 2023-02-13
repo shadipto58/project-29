@@ -1,0 +1,63 @@
+@media (max-width: 991px) {
+	.veer-menu-icons{
+		display: block;
+		color: #fff;
+		text-align: right;
+	}
+	.veer-menu-icons span{
+		font-size: 25px;
+	}
+	span.veer-menu-close{
+		display: none;
+	}
+
+	.veer-nav{
+		background: #000;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		display: none;
+	}
+	.veer-nav ul{
+		display: block;
+	}
+	.veer-nav ul li a{
+		display: block;
+		padding: 10px 20px;
+	}
+
+
+	.veer-about-img{
+		width: 75%;
+		margin: 100px auto 0;
+	}
+
+	.veer-about-img:before, .veer-about-img:after{
+		width: 150px;
+		height: 75px;
+	}
+
+
+}
+
+
+
+@media (max-width: 767px) {
+
+	.veer-contact-form{
+		width: 100%
+	}
+
+	.veer-footer-menu ul, 
+	.veer-footer-social ul{
+		justify-content: center;
+	}
+
+}
+
+@media (max-width: 575px) {
+	.veer-contact-form{
+		padding: 25px;
+	}
+}
